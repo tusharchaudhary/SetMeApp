@@ -1,0 +1,44 @@
+<ion-view title="Create Event" style="background-color: orange;">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+
+  
+
+<date-util format="dd/MM/yyyy"></date-util>
+
+  <label class="item item-input item-select">
+    <div class="input-label">
+    Date
+    </div>
+               <input type="date" name="dateEvent">
+  </label>
+  <div class="list">
+
+  <label class="item item-input item-select">
+    <div class="input-label">
+      Start Time
+    </div>
+                <input id="stime" name="exit-time" type="time">
+  </label>
+
+  <label class="item item-input item-select">
+    <div class="input-label">
+      End Time
+    </div>
+                <input id="etime" name="exit-time" type="time">
+  </label>
+
+
+<label class="item item-input item-select">
+    <div class="input-label">
+      Event Description
+    </div>
+   		<input type="text" id="event">
+               
+  </label>
+<a  class="button button-full button-positive" style="width:100%" onclick="saveValueLogin();">Submit</a>
+
+  </ion-content>
+</ion-view>
